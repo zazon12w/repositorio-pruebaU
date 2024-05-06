@@ -22,4 +22,4 @@ jobs:
           args: >
             -Dsonar.projectKey=zazon12w_repositorio-pruebaU
             -Dsonar.organization=repositorio-pruebaU
-            -Dsonar.java.binaries=prototipo/target/classes
+            -Dsonar.java.binaries=demo/target/classes
