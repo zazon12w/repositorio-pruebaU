@@ -17,9 +17,4 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        with:
-          args: >
-            -Dsonar.projectKey=zazon12w_repositorio-pruebaU
-            -Dsonar.organization=zazon12w
-            -Dsonar.java.binaries=demo/target/classes
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}      
